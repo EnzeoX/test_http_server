@@ -64,7 +64,7 @@
 #### 3. PUT data (user info)
 ##### Takes 3 parameters in JSON (user_id, level_id, result) sets the user's result at the level.
 ```http
-	PUT /api/v1/info/setinfo
+  PUT /api/v1/info/setinfo
 ```
 ##### Request body example:
 ```json
