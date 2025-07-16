@@ -23,6 +23,7 @@ target/
 
 ### NetBeans ###
 .idea
+/*.xml
 /nbproject/private/
 /nbbuild/
 /dist/
