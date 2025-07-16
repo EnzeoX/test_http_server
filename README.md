@@ -17,7 +17,7 @@
 
 ## API Reference
 
-####1. Get UserInfo by userId
+#### 1. Get UserInfo by userId
 ##### Returns the top 20 results of the user at all levels in descending order result, level_id
 
 ```http
@@ -28,7 +28,7 @@
 | :-------- | :------- | :------------------------- |
 | `userId` | `long` | **Required**. id of user |
 
-####2. Get UserInfo bu levelId
+#### 2. Get UserInfo by levelId
 ##### Returns top 20 users and their results at the selected level in descending order result, user_id
 ###### Request example:
 ```http
@@ -61,7 +61,7 @@
 ]
 ```
 
-####3. PUT data (user info)
+#### 3. PUT data (user info)
 ##### Takes 3 parameters in JSON (user_id, level_id, result) sets the user's result at the level.
 ```http
 	PUT /api/v1/info/setinfo
