@@ -22,7 +22,7 @@ target/
 .sts4-cache
 
 ### NetBeans ###
-*.idea/
+.idea
 /nbproject/private/
 /nbbuild/
 /dist/
